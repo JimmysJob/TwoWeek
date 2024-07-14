@@ -28,6 +28,36 @@ body {
   line-height: 1.5;
 }
 
+/* default style */
+
+.fs-1 {
+  font-size: 32px;
+}
+
+.fs-2 {
+  font-size: 24px;
+}
+
+.fs-3 {
+  font-size: 20px;
+}
+
+.fs-64 {
+  font-size: 64px;
+}
+
+.gap-2 {
+  gap: 16px;
+}
+
+.gap-3 {
+  gap: 24px;
+}
+
+.py-20 {
+  padding: 160px 0;
+}
+
 /* nav style */
 
 .container {
@@ -67,17 +97,12 @@ body {
   width: 50%;
 }
 
-.header-intro {
-  gap: 24px;
-}
-
 .intro-text {
   flex-direction: column;
   justify-content: center;
 }
 
 .intro-text p {
-  font-size: 64px;
   color: #fff;
 }
 
@@ -102,4 +127,16 @@ body {
 
 .intro-link:hover {
   background-color: #00ffa3;
+}
+
+/* main style */
+
+.main-left h2 {
+  color: #fff;
+  margin-bottom: 36px;
+}
+
+.main-left p {
+  color: #fff;
+  margin-bottom: 32px;
 }
