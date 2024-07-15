@@ -58,6 +58,18 @@ body {
   padding: 160px 0;
 }
 
+.mb4 {
+  margin-bottom: 4px;
+}
+
+.mb-4 {
+  margin-bottom: 24px;
+}
+
+.mb-6 {
+  margin-bottom: 36px;
+}
+
 /* nav style */
 
 .container {
@@ -139,4 +151,36 @@ body {
 .main-left p {
   color: #fff;
   margin-bottom: 32px;
+}
+
+/* section style */
+
+.section {
+  padding: 160px 0;
+  align-items: center;
+  gap: 134px;
+}
+
+.card {
+  max-width: 636px;
+}
+
+.card-list {
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.card-list li {
+  width: 306px;
+  padding: 16px;
+  border: 1px solid #e3e3e3;
+  box-shadow: 4px 4px 4px 0 #00000014;
+}
+
+.about {
+  width: 526px;
+}
+
+.about p {
+  color: #15161d;
 }
