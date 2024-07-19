@@ -162,7 +162,7 @@ body {
 .section {
   padding: 160px 0;
   align-items: center;
-  gap: 134px;
+  justify-content: space-between;
 }
 
 .card {
